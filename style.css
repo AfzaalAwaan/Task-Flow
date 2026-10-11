@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #00022E;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    padding-left: 16px;
+    border-bottom: 2px solid darkblue;
+
+}
+.links{
+   display: flex;
+   gap: 25px;
+}
+.links a{
+     text-decoration: none;
+     font-size: 20px;
+     color:white;
+      transition: 0.3s;
+}
+h2{
+    font-size: 25px;
+}
+.links a:hover{
+    color: cyan;
+}
+.get-started{
+    background-color: rgb(23, 71, 230);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 17px;
+    text-decoration: none;
+}
+.logo span{
+    color: cyan;
+}
+.logo{
+     letter-spacing: 2px;
+}
+.get-started:hover{
+    transform: translateY(-5px);
+}
+.card{
+    background-color: #151B3D;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 4px 10px ;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+     transition: 0.3s;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+.card p:nth-child(2){
+    font-size: 32px;
+    color: #00ffff;
+}
+.card:hover{
+   
+    transform: translateY(-5px);
+}
+.dashboard h2{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #00ffff;
+}
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero h1{
+    font-size: 42px;
+    color: #00ffff;
+    margin-bottom: 15px;
+}
+.hero span{
+    font-size: 20px;
+    color: lightgray;
+    display: block;
+}
+.hero p{
+    color: lightcyan;
+    font-size: 16px;
+    margin: 10px;}
+
+   .hero a{
+     text-decoration: none;
+     font-size: 20px;
+     color:white;
+      transition: 0.3s;
+    background-color: rgb(23, 71, 230);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 17px;
+    text-decoration: none;
+    margin-top: 10px;
+}
